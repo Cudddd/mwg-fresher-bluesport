@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Requests" />
+      <Folder Include="Utilities" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Bluesport.Data\Bluesport.Data.csproj" />
+    </ItemGroup>
+
+</Project>
